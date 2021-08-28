@@ -1,0 +1,13 @@
+.container {
+
+    background-color: rgb(255, 233, 108);
+    margin: 5px;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 0 10px;
+
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
